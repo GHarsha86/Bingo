@@ -1,0 +1,18 @@
+.main {
+    display: grid;
+    grid-template-rows: 50px 50px 50px 50px 50px;
+    grid-template-columns: 50px 50px 50px 50px 50px;
+    justify-content: center;
+}
+
+.box {
+    border: 2px solid;
+}
+
+.random {
+    border: 2px solid;
+    border-radius: 50%;
+    height: 80px;
+    width:80px;
+    justify-content: center;
+}
