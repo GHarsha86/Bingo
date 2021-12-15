@@ -3,6 +3,7 @@
     grid-template-rows: 50px 50px 50px 50px 50px;
     grid-template-columns: 50px 50px 50px 50px 50px;
     justify-content: center;
+    
 }
 
 .box {
@@ -14,5 +15,22 @@
     border-radius: 50%;
     height: 80px;
     width:80px;
-    justify-content: center;
+    text-align: center;
+    font-size: 60px;
+}
+
+.list {
+    border: 2px solid;
+    border-radius: 50%;
+    height: 30px;
+    width:40px;
+    overflow: hidden;
+    font-size: 20px;
+    float: left;
+    text-align: center;
+}
+    
+.lists {
+    overflow: hidden;
+
 }

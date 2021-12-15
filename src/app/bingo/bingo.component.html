@@ -1,7 +1,15 @@
 <div class="random">
+    {{randomNumber}}
+</div>
 
+<div class="lists">
+    <div class="list" *ngFor="let number of randomNumbers">{{number}}</div>
 </div>
 
 <div class="main">
-    <div class="box" *ngFor="let n of boxes(25)"> {{n}} </div>
+    <div class="box" *ngFor="let box of boxes; let i = index" id="{{box}}" title="{{i+1}}">{{box}}</div>
 </div>
+
+<button (click)="generateRandomNumber()">Start!</button>
+
+<div>{{win}}</div>
